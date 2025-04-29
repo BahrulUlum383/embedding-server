@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
-from model_loader import load_model
+from app.model_loader import load_model
 
 app = FastAPI()
 model = load_model()
